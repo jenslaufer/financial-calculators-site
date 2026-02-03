@@ -1,0 +1,35 @@
+---
+format:
+    html:
+        embed-resources: true
+editor:
+    render-on-save: true
+execute: 
+    warning: false
+    echo: false
+---
+
+# Financial Calculators
+
+## Research
+
+### Who is the target prospect?
+
+### Where and when do you meet the target prospect?
+
+### What is the product?
+
+### Why does the target prospect benefit from the product?
+
+## Copy
+
+```{r}
+library(tidyverse)
+library(glue)
+library(DT)
+
+"copyelements.csv" |>
+    read_csv() |>
+    datatable()
+```
+
