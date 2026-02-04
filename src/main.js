@@ -10,8 +10,8 @@ const router = createRouter({
             path: '',
             component: () => import('./components/Home.vue'),
             props: {
-                headline: 'Welcome to Your Financial Calculators Site',
-                uvp: 'Use our tools to get your finances right'
+                headline: 'Bring Precision to Your Loans, Investments, and Financial Affairs',
+                uvp: 'Use our suite of financial calculators to make informed decisions with ease and accuracy.',
             }
         }
     ]
