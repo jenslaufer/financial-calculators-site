@@ -13,7 +13,11 @@ const router = createRouter({
                 headline: 'Get your financials in order...',
                 uvp: 'Gain control of your loans, mortgages, stocks, and other financials with our calculators',
             }
-        }
+        },
+        {
+            path: '/quota',
+            component: () => import('./components/Quota.vue')
+        },
     ]
 })
 
