@@ -1,7 +1,8 @@
 import { createApp } from 'vue'
-import './style.css'
 import App from './App.vue'
+import './style.css'
 import { createWebHashHistory, createRouter } from 'vue-router'
+import { url } from '@vuelidate/validators'
 
 const router = createRouter({
     history: createWebHashHistory(),
@@ -10,8 +11,10 @@ const router = createRouter({
             path: '',
             component: () => import('./components/Home.vue'),
             props: {
-                headline: 'Get your financials in order...',
+                headline: 'Lost control of your finances?',
                 uvp: 'Gain control of your loans, mortgages, stocks, and other financials with our calculators',
+                cta: 'Get Started',
+                url: "/#"
             }
         },
         {
