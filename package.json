@@ -11,7 +11,6 @@
   "dependencies": {
     "@fontsource-variable/merriweather": "^5.2.6",
     "@fontsource-variable/montserrat": "^5.2.8",
-    "@solytics/vue-auth-widgets": "github:jenslaufer/vue-auth-widgets#3.0.0",
     "@tailwindcss/vite": "^4.1.11",
     "@vuelidate/core": "^2.0.3",
     "@vuelidate/validators": "^2.0.4",

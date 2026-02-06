@@ -2,7 +2,6 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import './style.css'
 import { createWebHashHistory, createRouter } from 'vue-router'
-import { url } from '@vuelidate/validators'
 
 const router = createRouter({
     history: createWebHashHistory(),
@@ -16,11 +15,7 @@ const router = createRouter({
                 cta: 'Get Started',
                 url: "/#"
             }
-        },
-        {
-            path: '/quota',
-            component: () => import('./components/Quota.vue')
-        },
+        }
     ]
 })
 
